@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-image: url(img/idiomas.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    padding: 3%;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0) ;
+}
+
+#container {
+    margin: 0;
+    padding: 5%;
+    justify-content: center;
+}
+
+.input {
+    width: 75%;
+    height: 4rem;
+    border-radius: 1rem;
+    border: solid 1px;
+    background: linear-gradient(rgb(107, 224, 199), rgb(65, 138, 78));
+    font-size: 90%
+}
+
+#paises {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    margin: 0.5rem 1rem;
+    flex-wrap: wrap;
+}
+
+#informacion {
+
+    border-radius: 1rem;
+}
+
+.banderas {
+    width: 15rem;
+    object-fit: cover;
+    height: 190px;
+    border: solid;
+}
+
+.formu {
+    display: flex;
+    justify-content: center;
+}
+
+.conta-car {
+    background-color:rgb(255, 255, 255);
+    border-radius: 1rem;
+}
+
+.descripcion {
+    font-size: 25px;
+    background: linear-gradient(rgb(107, 224, 199), rgb(65, 138, 78));
+    border-radius: 1rem;
+    border: solid 1px;
+}
+
+#climas {
+    font-size: 22px;
+}
+
+.info-paises {
+    font-size: 25px;
+    text-align: center;
+}
